@@ -2,7 +2,7 @@ import pymongo
 from gridfs import *
 
 def loading_image():
-    myclientdata = pymongo.MongoClient("mongodb+srv://peter:0987602620@cluster0.0qqo9.mongodb.net/ceb101?retryWrites=true&w=majority")
+    myclientdata = pymongo.MongoClient("mongodb+srv://uri")
     mydbdata = myclientdata['test']
     # mycoldata = mydbdata['trash']
 
